@@ -1,12 +1,11 @@
 package org.apache.hadoop.hive.contrib.serde2;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
+import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-public class JsonSerdeTest {
+public class JsonSerDeTest {
 
     @Before
     public void setUp() throws Exception {
@@ -18,27 +17,27 @@ public class JsonSerdeTest {
 
     @Test
     public void testInitialize() {
-	fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     public void testGetObjectInspector() {
-	fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     public void testDeserialize() {
-	fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     public void testGetSerializedClass() {
-	fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     public void testSerialize() {
-	fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
 }

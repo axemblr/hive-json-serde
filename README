@@ -6,7 +6,7 @@ Branched from the version of the Google Code project as of July 5.  Changes to t
    CREATE EXTERNAL TABLE IF NOT EXISTS response_log_example (
       request_id string,
    )
-   ROW FORMAT SERDE "org.apache.hadoop.hive.contrib.serde2.JsonSerde"
+   ROW FORMAT SERDE "org.apache.hadoop.hive.contrib.serde2.JsonSerDe"
    WITH SERDEPROPERTIES (
       "request_id"="$.search_result.requestId"
    );
